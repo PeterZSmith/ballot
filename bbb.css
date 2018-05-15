@@ -26,19 +26,23 @@
 .content
 {
 	border-left-width: thin;
+/*	border-left-width: "1px"; */
 	left: 18%;
 	width: 70%; 
 	font-family: "Arial"; 
 	font-weight: 100; 
-	border-left-width: "1px";
 	margin-top: 1.3em;
 	margin-bottom: 1.3em;
 }
 #item { 
 	text-align: left; font-family: "Arial";  margin-top: 1em;
 }  
-#leaflet {
-	text-align: left; color: #ff3333; font-family: "Verdana"; font-weight: 120; margin-top: 1em;
+#leaflet, .h7 {
+	text-align: left; color: #ff3333; font-family: "Verdana"; font-weight: bold; margin-top: 1em;
+}
+.h7
+{
+	text-align: center; margin-bottom:0.6em; 
 }
 #photos {
 	z-index: 2; float: right; margin-top: 0em; margin-left: 1em; font-family: "Arial"; 
@@ -59,24 +63,24 @@ div#bookcover {
 .indented {
 	padding-left: 1em;
 }
-h1, h2, h4, h5, h6
+h1, h2, h4, h5, h6, .h7
 {
 	text-align: center; 
 }
-h1, h2, h4, h5, h6, h7
+h1, h2, h4, h5
 {
 	font-weight: bold; padding: 0em; border: 0em; margin: 0em;
 }
 h1 { font-size: 30pt; font-family: "Times New Roman"; color: darkblue; font-style: italic; }
 h2 { font-size: 20pt; font-family: "Times New Roman"; color: green; font-style: italic; }
-h3 { font-size: 12pt; font-family: "Verdana"; color: maroon; text-align: left; }
+h3, #results { font-size: 12pt; font-family: "Verdana"; color: maroon; text-align: left; }
+#results {font-weight: bold;}
 h4 { font-size: 14pt; font-family: "Times New Roman"; color: blue; }
 h4 span#by {font-style: italic}
 h5 { font-size: 15pt; font-family: "Times New Roman"; color: teal; }
-h6 { font-size: 18pt; font-family: "Times New Roman"; color: yellow; font-style: italic; }
-h7 { font-size:  8pt; font-family: "Arial"; color: green; }
 blockquote {font-weight: bold; font-size: 12pt; font-family: "Times New Roman"; color: black;}
 
 .readthisifnothingelse {font-size: 1.1em; font-family:"Times New Roman";  color: red; font-weight: bold}
+.italic {font-style: italic;}
 
 
