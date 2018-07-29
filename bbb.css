@@ -1,86 +1,134 @@
-.heading { max-height: 100%;   margin: 0em;   padding: 1em;}
-.heading, .linksandcontent, .lhlinks, .content, .rhlinks {}
+.heading { 
+	max-height: 100%;   
+	margin: 0em;   
+	padding: 1em;
+}
  
-.linksandcontent
-{
+.linksandcontent {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	top: 20%;
-/*	border: solid;	*/
+	top: 25%;
 }
-.lhlinks, .content, .rhlinks 
-{
+
+.lhlinks, .content, .rhlinks {
 	position: absolute;
 	top: 0%;
-	padding: 1%; 
+	padding: 0 1% 1% 1%; 
 }
-.lhlinks,.rhlinks {margin-top: 5em; font-size: small; background-color: #ddd;}
+
+.lhlinks,.rhlinks {
+	padding-top: 0.6em;
+	font-size: medium; 
+	background-color: #ddd;
+	vertical-align: top; 
+	width: 15%;
+}
+
 .lhlinks {
-	font-size: small; vertical-align: top; width: 15%;
 }
+
 .rhlinks {left: 90%; width: 10%; }
+
 .lhlinks div, .rhlinks div {
         margin-bottom: 1.3em
 }
+
 .content
 {
 	border-left-width: thin;
-/*	border-left-width: "1px"; */
 	left: 18%;
 	width: 70%; 
 	font-family: "Arial"; 
 	font-weight: 100; 
-	margin-top: 1.3em;
+/*	margin-top: 1.3em; */
 	margin-bottom: 1.3em;
 }
+
 #item { 
-	text-align: left; font-family: "Arial";  margin-top: 1em;
+	text-align: left; 
+	font-family: "Arial";  
+	margin-bottom: 1em;
 }  
+
 #leaflet, .h7 {
-	text-align: left; color: #ff3333; font-family: "Verdana"; font-weight: bold; margin-top: 1em;
+	text-align: left; 
+	color: #ff3333; 
+	font-family: "Verdana"; 
+	font-weight: bold; 
 }
+
 .h7
 {
-	text-align: center; margin-bottom:0.6em; 
+	text-align: center; 
+	margin-bottom:0.6em; 
+	margin-top: 0.8em;
 }
+
 #photos {
-	z-index: 2; float: right; margin-top: 0em; margin-left: 1em; font-family: "Arial"; 
+	z-index: 2; 
+	float: right; 
+	margin-top: 0em; 
+	margin-left: 1em; 
+	font-family: "Arial"; 
 }
-div#bookcover {
-    position:absolute;
-    background-color:yellow;
-    width:172px;
-    clip:rect(20px,172px,220px,10px);
-}
+
 .photo {
-	margin-top: 1.0em;
 	margin-bottom: 0.3em;
 }
+
+#owtp {
+	width:195px; height:275px; border:0px; margin-top: -1.3em; margin-left:-10px; margin-bottom:-22px; 
+}
+
+#AuthorEighties {
+	width:172px; height:220px; border:0px;
+}
+
+#Author2011 {
+	width:172px; height:250px; border:0px;
+}
+
 .caption {
 	text-align: center; 
+	margin-bottom: 1.3em;
 }
+
 .indented {
 	padding-left: 1em;
 }
+
 h1, h2, h4, h5, h6, .h7
 {
 	text-align: center; 
 }
+
 h1, h2, h4, h5
 {
-	font-weight: bold; padding: 0em; border: 0em; margin: 0em;
+	font-weight: bold; 
+	padding: 0em; 
+	border: 0em; 
+	margin: 0em;
 }
-h1 { font-size: 30pt; font-family: "Times New Roman"; color: darkblue; font-style: italic; }
-h2 { font-size: 20pt; font-family: "Times New Roman"; color: green; font-style: italic; }
-h3, #results { font-size: 12pt; font-family: "Verdana"; color: maroon; text-align: left; }
-#results {font-weight: bold;}
-h4 { font-size: 14pt; font-family: "Times New Roman"; color: blue; }
-h4 span#by {font-style: italic}
-h5 { font-size: 15pt; font-family: "Times New Roman"; color: teal; }
-blockquote {font-weight: bold; font-size: 12pt; font-family: "Times New Roman"; color: black;}
 
-.readthisifnothingelse {font-size: 1.1em; font-family:"Times New Roman";  color: red; font-weight: bold}
+h1, h2, h4, h5, blockquote, .readthisifnothingelse { font-family: "Times New Roman"; }
+
+h1 { font-size: 30pt; color: darkblue; font-style: italic; }
+h2 { font-size: 20pt; color: green; font-style: italic; }
+h3, #results { font-size: 12pt; font-family: "Verdana"; color: maroon; text-align: left; }
+
+#results {font-weight: bold;}
+
+h4 { font-size: 14pt; color: blue; }
+
+h4 span#by {font-style: italic}
+
+h5 { font-size: 15pt; color: teal; }
+
+blockquote {font-weight: bold; font-size: 12pt; color: black;}
+
+.readthisifnothingelse {font-size: 1.1em; color: red; font-weight: bold}
+
 .italic {font-style: italic;}
 
 
