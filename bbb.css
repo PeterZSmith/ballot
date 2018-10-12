@@ -22,10 +22,11 @@
 	font-size: medium; 
 	background-color: #ddd;
 	vertical-align: top; 
-	width: 15%;
+	width: 20%;
 }
 
 .lhlinks {
+	z-index:1;
 }
 
 .rhlinks {left: 90%; width: 10%; }
@@ -37,12 +38,13 @@
 .content
 {
 	border-left-width: thin;
-	left: 18%;
-	width: 70%; 
+	left: 15%;
+	width: 60%; 
 	font-family: "Arial"; 
 	font-weight: 100; 
 /*	margin-top: 1.3em; */
 	margin-bottom: 1.3em;
+	background-color: orange;
 }
 
 #item { 
@@ -68,25 +70,36 @@
 #photos {
 	z-index: 2; 
 	float: right; 
+	width: 15%;
 	margin-top: 0em; 
 	margin-left: 1em; 
 	font-family: "Arial"; 
+	background-color:green; 
 }
 
 .photo {
 	margin-bottom: 0.3em;
+	background-color:red; 
+	border:0px;
 }
 
 #owtp {
-	width:195px; height:275px; border:0px; margin-top: -1.3em; margin-left:-10px; margin-bottom:-22px; 
+	background-color:pink; 
+/*	width:195px; */
+/*	height:275px; */
+	margin-top: -1.3em; 
+	margin-left:-10px; 
+	margin-bottom:-22px; 
 }
 
 #AuthorEighties {
-	width:172px; height:220px; border:0px;
+/*	width:172px; */
+	height:220px; 
 }
 
 #Author2011 {
-	width:172px; height:250px; border:0px;
+/*	width:172px; */
+	height:250px; 
 }
 
 .caption {
